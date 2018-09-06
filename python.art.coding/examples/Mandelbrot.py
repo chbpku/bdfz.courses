@@ -7,7 +7,7 @@ __doc__='''曼德勃罗集显示程序
 from tkinter import Tk, Canvas
 from PIL import Image, ImageTk, ImageDraw
 from math import log2
-from colorsys import hsv_to_rgb
+from colorsys import hls_to_rgb
 
 # 设置初始边界、显示画布宽高
 X1, X2, Y1, Y2 = -2, 1, -1.5, 1.5  # 初始显示范围
@@ -40,7 +40,7 @@ class Mandelbrot:
 
         # 映射RGB值
         grad = iter / MAX_ITER
-        r, g, b = hsv_to_rgb((2 + grad) / 3, 1, grad)
+        r, g, b = hls_to_rgb((2 + grad) / 3, grad, 1)
         return int(255 * r), int(255 * g), int(255 * b)
 
 
