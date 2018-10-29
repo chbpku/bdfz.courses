@@ -53,6 +53,9 @@
 ## 灯光艺术
 - L15(1029)/microbit-micropython
   - neopixel操作
+- L16(1101)/__上机课__
+  - 上机编程microbit
+
 ## 动画和交互动画
 ## 游戏
 ## 音乐和数据可听化
