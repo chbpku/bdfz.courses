@@ -213,7 +213,7 @@ def main():
     gc.collect()
     # 进入遗传算法的循环
     i = 0
-    while i < 30000:
+    while i < 30001:
         childList = []
         # 每一代从父代中变异出10个个体
         for j in range(10):
@@ -242,7 +242,7 @@ def main():
 '''
 #NAME = input('请输入原图片文件名：')
 NAME = "firefox.jpeg"
-LOOP = 100
+LOOP = 500
 PREFIX = NAME.split('/')[-1].split('.')[0]  # 取文件名
 PATH = os.path.abspath('.')  # 取当前路径
 PATH = os.path.join(PATH, 'results')
