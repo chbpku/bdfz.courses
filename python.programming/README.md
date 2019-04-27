@@ -8,7 +8,7 @@
 ## （4次）计算机基础
 - L1(0225一)/我们为什么要学习编程？什么是计算思维？Python语言的历史和现状；
   - （练习）Python程序的样子；体验输入Python程序；计算一些表达式
-  - （看视频）http://www.chinesemooc.org/live/685377 2.1/2.2/2.3
+  - （看视频）<http://www.chinesemooc.org/live/685377> 2.1/2.2/2.3
 
 - L2(0227)/（__上机课__）输入Python程序5段
   - 熟悉Python开发环境
