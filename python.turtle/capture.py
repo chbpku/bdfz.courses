@@ -64,7 +64,7 @@ while not welldone:
     formula = '%d * %d / %d' % (n_catched, n_released, n_marked)
     if n_marked:
         n_calc = int(eval(formula))
-        if 0.95 <= abs(n_calc / N) < 1.05:
+        if abs(1 - n_calc / N) <= 0.05:
             welldone = True
     else:
         n_calc = 'Too Many'
