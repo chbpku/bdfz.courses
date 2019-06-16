@@ -15,3 +15,7 @@
 
 ## 生物学模拟
 - [标记重捕法](capture.py)
+
+# 参考资料
+- [Turtle中可以用的颜色名称](https://trinket.io/docs/colors)
+- [Turtle模块的官方中文文档](https://docs.python.org/zh-cn/3/library/turtle.html)
